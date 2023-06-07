@@ -13,7 +13,7 @@ namespace FactoryMaintenanceAPI.Controllers
     {
         private readonly ICountryRepository _countryRepository;
         private readonly IMapper _mapper;
-        private static bool isMethodGetAndSaveCountriesExecuted = true;
+        private static bool isMethodGetAndSaveCountriesExecuted = false;
 
         public CountriesController(ICountryRepository countryRepository, IMapper mapper)
         {
